@@ -139,7 +139,26 @@
         "ProjectId": "1f26ddac-a160-459e-8a3c-994b8298ddce",
         "ProjectName": "mssql-2-users",
         "DBTypeName": "SQL Server",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "f434657e-5ad8-4124-a066-d23031fa4a9f",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "9d3aa514-4741-466d-8a2e-053395446511",
+                "DatabaseAliasName": "db1_user",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/roylauzon/p2_db1_user1.git",
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -155,7 +174,30 @@
       "UserData": [
         {
           "UserName": "roylauzon",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "9d3aa514-4741-466d-8a2e-053395446511",
+              "DatabaseAliasName": "db1_user",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "DOPX-ROY\\SQLEXPRESS",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "3Gb0hbYzmDIwRNmEt2GLYw==",
+                    "DatabaseName": "sand_24_user1"
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "roylauzon",
+                "Password": "ftPm7DV9mYIND7T90GVFTECq+9jSVLHWU6yCteJf16uBOWB++A01OdwLNBhRAHsD"
+              }
+            }
+          ]
         }
       ]
     }
