@@ -198,6 +198,33 @@
               }
             }
           ]
+        },
+        {
+          "UserName": "roylauzon76",
+          "DatabasesData": [
+            {
+              "DatabaseId": "9d3aa514-4741-466d-8a2e-053395446511",
+              "DatabaseAliasName": "db1_user",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "DOPX-ROY\\SQLEXPRESS",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "3Gb0hbYzmDIwRNmEt2GLYw==",
+                    "DatabaseName": "sand_24_user2"
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "roylauzon76",
+                "Password": "pbpuK3Ki2jUr7GlAUTmhhJthV/vkcB3hAanzkKBhsUyppab+cimEZFk7YJDb6C68"
+              }
+            }
+          ]
         }
       ]
     }
