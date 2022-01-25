@@ -152,8 +152,8 @@
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
                   "RemoteRepositoryURL": "https://github.com/roylauzon/p2_db1_user1.git",
-                  "RemoteBranchName": "main",
-                  "LocalBranchName": "main"
+                  "RemoteBranchName": "feature_2",
+                  "LocalBranchName": "feature_2"
                 }
               }
             ]
@@ -182,6 +182,17 @@
               "BranchesDatabaseConnectionDetails": [
                 {
                   "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "DOPX-ROY\\SQLEXPRESS",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "123",
+                    "DatabaseName": "sand_24_feature_1"
+                  }
+                },
+                {
+                  "BranchName": "feature_2",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
                     "Host": "DOPX-ROY\\SQLEXPRESS",
