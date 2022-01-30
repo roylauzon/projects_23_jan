@@ -64,6 +64,33 @@
               }
             }
           ]
+        },
+        {
+          "UserName": "roylauzon76",
+          "DatabasesData": [
+            {
+              "DatabaseId": "98bdf043-ee15-495d-a81b-4a5ebbda1852",
+              "DatabaseAliasName": "db1",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "DOPX-ROY\\SQLEXPRESS",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "3Gb0hbYzmDIwRNmEt2GLYw==",
+                    "DatabaseName": "sand_30_1"
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "roylauzon76",
+                "Password": "pbpuK3Ki2jUr7GlAUTmhhJthV/vkcB3hAanzkKBhsUyppab+cimEZFk7YJDb6C68"
+              }
+            }
+          ]
         }
       ]
     },
