@@ -255,6 +255,17 @@
                     "Password": "3Gb0hbYzmDIwRNmEt2GLYw==",
                     "DatabaseName": "sand_24_user2"
                   }
+                },
+                {
+                  "BranchName": "feature_2",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "DOPX-ROY\\SQLEXPRESS",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "3Gb0hbYzmDIwRNmEt2GLYw==",
+                    "DatabaseName": "sand_30_2"
+                  }
                 }
               ],
               "RepositoryCredentials": {
