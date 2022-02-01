@@ -220,6 +220,31 @@
           ]
         }
       ]
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "2b673522-3ea7-41c6-84b4-555b66c1c5c9",
+        "ProjectName": "projectName1",
+        "DBTypeName": "SQL Server",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "BuildMethod": 0,
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "BuildDeploymentScriptOnPush": false,
+          "PreventCommitObjectWithConflict": false
+        },
+        "ProjectArchitecture": 0,
+        "LocalDirectory": "C:\\Users\\royl\\Documents\\projectName"
+      },
+      "UserData": [
+        {
+          "UserName": "roylauzon76",
+          "DatabasesData": []
+        }
+      ]
     }
   ],
   "GlobalConfigurations": null
