@@ -112,8 +112,8 @@
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
                   "RemoteRepositoryURL": "https://github.com/roylauzon/p2_db1_user1.git",
-                  "RemoteBranchName": "main",
-                  "LocalBranchName": "main"
+                  "RemoteBranchName": "feature3",
+                  "LocalBranchName": "feature3"
                 }
               }
             ]
