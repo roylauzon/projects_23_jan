@@ -172,6 +172,17 @@
                     "Password": "3Gb0hbYzmDIwRNmEt2GLYw==",
                     "DatabaseName": "branch_02_02"
                   }
+                },
+                {
+                  "BranchName": "feature_1",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "DOPX-ROY\\SQLEXPRESS",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "3Gb0hbYzmDIwRNmEt2GLYw==",
+                    "DatabaseName": "MyNewBranch"
+                  }
                 }
               ],
               "RepositoryCredentials": {
