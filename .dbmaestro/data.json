@@ -28,7 +28,7 @@
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
-          "BuildMethod": 0,
+          "DBConfiguration": {},
           "NumberOfRevisionsInViewHistory": 10,
           "NumberOfTagsInBuildOptions": 10,
           "BuildDeploymentScriptOnPush": false,
@@ -50,11 +50,11 @@
                   "BranchName": "main",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "Host": "DOPX-ROY\\SQLEXPRESS",
-                    "AuthenticationType": 1,
-                    "Username": "sa",
-                    "Password": "3Gb0hbYzmDIwRNmEt2GLYw==",
-                    "DatabaseName": "sand_23_1"
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "sand_23_1",
+                    "host": "DOPX-ROY\\SQLEXPRESS",
+                    "Password": "3Gb0hbYzmDIwRNmEt2GLYw=="
                   }
                 }
               ],
@@ -77,11 +77,11 @@
                   "BranchName": "main",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "Host": "DOPX-ROY\\SQLEXPRESS",
-                    "AuthenticationType": 1,
-                    "Username": "sa",
-                    "Password": "3Gb0hbYzmDIwRNmEt2GLYw==",
-                    "DatabaseName": "new_branch"
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "new_branch",
+                    "host": "DOPX-ROY\\SQLEXPRESS",
+                    "Password": "3Gb0hbYzmDIwRNmEt2GLYw=="
                   }
                 }
               ],
@@ -122,7 +122,7 @@
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
-          "BuildMethod": 0,
+          "DBConfiguration": {},
           "NumberOfRevisionsInViewHistory": 10,
           "NumberOfTagsInBuildOptions": 10,
           "BuildDeploymentScriptOnPush": false,
@@ -144,44 +144,44 @@
                   "BranchName": "main",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "Host": "DOPX-ROY\\SQLEXPRESS",
-                    "AuthenticationType": 1,
-                    "Username": "sa",
-                    "Password": "3Gb0hbYzmDIwRNmEt2GLYw==",
-                    "DatabaseName": "MyNewBranch"
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "MyNewBranch",
+                    "host": "DOPX-ROY\\SQLEXPRESS",
+                    "Password": "3Gb0hbYzmDIwRNmEt2GLYw=="
                   }
                 },
                 {
                   "BranchName": "feature_2",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "Host": "DOPX-ROY\\SQLEXPRESS",
-                    "AuthenticationType": 1,
-                    "Username": "sa",
-                    "Password": "3Gb0hbYzmDIwRNmEt2GLYw==",
-                    "DatabaseName": "sand_24_feature_1"
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "sand_24_feature_1",
+                    "host": "DOPX-ROY\\SQLEXPRESS",
+                    "Password": "3Gb0hbYzmDIwRNmEt2GLYw=="
                   }
                 },
                 {
                   "BranchName": "branch_02_02",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "Host": "DOPX-ROY\\SQLEXPRESS",
-                    "AuthenticationType": 1,
-                    "Username": "sa",
-                    "Password": "3Gb0hbYzmDIwRNmEt2GLYw==",
-                    "DatabaseName": "branch_02_02"
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "branch_02_02",
+                    "host": "DOPX-ROY\\SQLEXPRESS",
+                    "Password": "3Gb0hbYzmDIwRNmEt2GLYw=="
                   }
                 },
                 {
                   "BranchName": "feature_1",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "Host": "DOPX-ROY\\SQLEXPRESS",
-                    "AuthenticationType": 1,
-                    "Username": "sa",
-                    "Password": "3Gb0hbYzmDIwRNmEt2GLYw==",
-                    "DatabaseName": "MyNewBranch"
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "MyNewBranch",
+                    "host": "DOPX-ROY\\SQLEXPRESS",
+                    "Password": "3Gb0hbYzmDIwRNmEt2GLYw=="
                   }
                 }
               ],
@@ -204,33 +204,44 @@
                   "BranchName": "main",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "Host": "DOPX-ROY\\SQLEXPRESS",
-                    "AuthenticationType": 1,
-                    "Username": "sa",
-                    "Password": "3Gb0hbYzmDIwRNmEt2GLYw==",
-                    "DatabaseName": "sand_24_user2"
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "sand_24_user2",
+                    "host": "DOPX-ROY\\SQLEXPRESS",
+                    "Password": "3Gb0hbYzmDIwRNmEt2GLYw=="
                   }
                 },
                 {
                   "BranchName": "feature_2",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "Host": "DOPX-ROY\\SQLEXPRESS",
-                    "AuthenticationType": 1,
-                    "Username": "sa",
-                    "Password": "3Gb0hbYzmDIwRNmEt2GLYw==",
-                    "DatabaseName": "sand_30_1feature_3"
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "sand_30_1feature_3",
+                    "host": "DOPX-ROY\\SQLEXPRESS",
+                    "Password": "3Gb0hbYzmDIwRNmEt2GLYw=="
                   }
                 },
                 {
                   "BranchName": "feature_3",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "Host": "DOPX-ROY\\SQLEXPRESS",
-                    "AuthenticationType": 1,
-                    "Username": "sa",
-                    "Password": "3Gb0hbYzmDIwRNmEt2GLYw==",
-                    "DatabaseName": "sand_30_1feature_3"
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "sand_30_1feature_3",
+                    "host": "DOPX-ROY\\SQLEXPRESS",
+                    "Password": "3Gb0hbYzmDIwRNmEt2GLYw=="
+                  }
+                },
+                {
+                  "BranchName": "branch23",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "DOPX-ROY\\SQLEXPRESS",
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "sand_23_f23",
+                    "Password": "3Gb0hbYzmDIwRNmEt2GLYw=="
                   }
                 }
               ],
@@ -252,7 +263,7 @@
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
-          "BuildMethod": 0,
+          "DBConfiguration": {},
           "NumberOfRevisionsInViewHistory": 10,
           "NumberOfTagsInBuildOptions": 10,
           "BuildDeploymentScriptOnPush": false,
