@@ -278,6 +278,31 @@
           "DatabasesData": []
         }
       ]
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "626edd0a-73ce-4c57-9661-d0f2f9583a69",
+        "ProjectName": "Oracle_test",
+        "DBTypeName": "Oracle",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "DBConfiguration": {},
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "BuildDeploymentScriptOnPush": false,
+          "PreventCommitObjectWithConflict": false
+        },
+        "ProjectArchitecture": 0,
+        "LocalDirectory": "C:\\Users\\royl\\Documents\\projectName"
+      },
+      "UserData": [
+        {
+          "UserName": "roylauzon76",
+          "DatabasesData": []
+        }
+      ]
     }
   ],
   "GlobalConfigurations": null
