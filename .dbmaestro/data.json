@@ -278,6 +278,31 @@
           "DatabasesData": []
         }
       ]
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "ab38728e-437e-48f0-9993-38cc6cb56cd9",
+        "ProjectName": "new_ora",
+        "DBTypeName": "Oracle",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "DBConfiguration": {},
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "BuildDeploymentScriptOnPush": false,
+          "PreventCommitObjectWithConflict": false
+        },
+        "ProjectArchitecture": 0,
+        "LocalDirectory": "C:\\Users\\royl\\Documents\\projectName"
+      },
+      "UserData": [
+        {
+          "UserName": "roylauzon76",
+          "DatabasesData": []
+        }
+      ]
     }
   ],
   "GlobalConfigurations": null
