@@ -289,7 +289,19 @@
             "EnvironmentId": "64be964b-9d3b-4e2f-9818-7f55b8a6bd5f",
             "EnvironmentName": "Dev_Env_1",
             "EnvironmentType": "DEV",
-            "Databases": []
+            "Databases": [
+              {
+                "DatabaseId": "09a098a9-b398-4cad-a17a-a1a7c2d24680",
+                "DatabaseAliasName": "ora_db1",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/roylauzon76/ora_db1.git",
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
+                }
+              }
+            ]
           }
         ],
         "SourceControlPathType": 0,
@@ -307,7 +319,31 @@
       "UserData": [
         {
           "UserName": "roylauzon76",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "09a098a9-b398-4cad-a17a-a1a7c2d24680",
+              "DatabaseAliasName": "ora_db1",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "Oracle",
+                    "host": "localhost",
+                    "port": "1521",
+                    "identifierType": "SERVICE_NAME",
+                    "identifier": "xepdb1",
+                    "userName": "ROY",
+                    "Password": "3Gb0hbYzmDIwRNmEt2GLYw=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "roylauzon76",
+                "Password": "ftPm7DV9mYIND7T90GVFTECq+9jSVLHWU6yCteJf16uBOWB++A01OdwLNBhRAHsD"
+              }
+            }
+          ]
         }
       ]
     }
